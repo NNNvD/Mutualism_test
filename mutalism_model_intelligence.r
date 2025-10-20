@@ -64,8 +64,12 @@ for(i in 1:nr_of_pp){
 }
 
 # Display the positive manifold by showing the distribution of the off-diagonal
-# elements of the correlation matrix. Values near 1 are removed to avoid the
-# trivial diagonal entries.
-hist(cor(data)[cor(data) < 1], main = 'positive manifold',
-     xlab = 'between test correlations',
-     col = 'grey50')
+# elements of the correlation matrix. 
+hist(cor(data)[upper.tri(cor(data),diag=FALSE)], 
+     main = 'Simulated positive manifold',
+     xlab = 'Between test correlations',
+     col = 'grey50',
+     xlim=c(0,0.6),
+     ylim=c(0,15),
+     freq=FALSE
+     ) 
