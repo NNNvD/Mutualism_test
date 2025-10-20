@@ -1,5 +1,5 @@
 # Dynamical Mutualism Model Simulation
-This repository implements the Dynamical Model of General Intelligence as discussed in Van der Maas' book *Complex Systems Research in Psychology* (Chapter 6: Mutualism Model).
+This repository implements the Dynamical Model of General Intelligence as discussed in Van der Maas' book *Complex Systems Research in Psychology* ([Chapter 6: Psychological Network Models](https://santafeinstitute.github.io/ComplexPsych/ch6.html#sec-Mutualism-model)). 
 
 The provided R script recreates the mutualism simulation described in the
 book, producing synthetic ability trajectories and the resulting positive
@@ -24,6 +24,6 @@ The script installs its dependencies on first execution; subsequent runs can
 comment out the installation lines if the packages are already available.
 
 ## Acknowledgements
-This repository draws directly on book the book *Complex Systems Research in Psychology* (Chapter 6: Mutualism Model), as authored by Van der
+This repository draws directly on book the book *Complex Systems Research in Psychology* (Section 6.3.1.2 Mutualism model), as authored by Van der
 Maas. His exposition provides the theoretical grounding and
 original code on which this implementation is based.
